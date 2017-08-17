@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tbx",
+  "name": "Toolblox",
+  "description": "A small but powerful creative toolkit for MC map creators.",
+  "version": "${0.1}",
+  "mcversion": "${1.11.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Yayes"],
+  "credits": "Created by Yayes",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
