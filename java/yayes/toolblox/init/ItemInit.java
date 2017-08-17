@@ -12,18 +12,15 @@ import yayes.toolblox.init.items.CustomTool;
 public class ItemInit 
 {
 	public static Item toolblox_keeper;
-	public static Item toolblox_monocle;
 	
 	public static void init()
 	{
 		toolblox_keeper = new CustomItem("toolblox_keeper");
-		toolblox_monocle = new CustomItem("toolblox_monocle");
 	}
 	
 	public static void register()
 	{
 		registerItem(toolblox_keeper);
-		registerItem(toolblox_monocle);
 	}
 	
 	public static void registerItem(Item item)

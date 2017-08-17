@@ -2,7 +2,7 @@ package yayes.toolblox.tabs;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
-import yayes.toolblox.init.ItemInit;
+import yayes.toolblox.init.ArmorInit;
 
 public class ToolbloxTab extends CreativeTabs
 {
@@ -22,6 +22,6 @@ public class ToolbloxTab extends CreativeTabs
         //           ItemStack(ItemInit.<name of item>);
 		//      For a Block =
 		//           ItemStack(Item.getItemFromBlock(BlockInit.<name of block>);
-		return new ItemStack(ItemInit.toolblox_monocle);
+		return new ItemStack(ArmorInit.toolblox_monocle);
 	}
 }

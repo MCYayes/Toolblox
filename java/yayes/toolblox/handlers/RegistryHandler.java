@@ -3,7 +3,7 @@ package yayes.toolblox.handlers;
 import yayes.toolblox.init.ArmorInit;
 import yayes.toolblox.init.BlockInit;
 import yayes.toolblox.init.ItemInit;
-import yayes.toolblox.init.ToolInit;
+// import yayes.toolblox.init.ToolInit;
 
 // Handles the registration of things into the game
 public class RegistryHandler 
@@ -11,7 +11,7 @@ public class RegistryHandler
 	public static void Client()
 	{
 		ItemInit.register();
-		ToolInit.register();
+		// ToolInit.register();
 		ArmorInit.register();
 		BlockInit.registerRenders();
 	}
@@ -20,7 +20,7 @@ public class RegistryHandler
 	{
 		ItemInit.init();
 		BlockInit.init();
-		ToolInit.init();
+		// ToolInit.init();
 		ArmorInit.init();
 		BlockInit.register();
 	}

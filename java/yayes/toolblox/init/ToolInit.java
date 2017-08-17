@@ -1,3 +1,4 @@
+/* 
 package yayes.toolblox.init;
 
 import net.minecraft.client.Minecraft;
@@ -34,3 +35,4 @@ public class ToolInit
 		// format is> item.<name here>.name
 	}
 }
+*/
