@@ -10,18 +10,21 @@ public class RegistryHandler
 {
 	public static void Client()
 	{
-		ItemInit.register();
-		// ToolInit.register();
-		ArmorInit.register();
-		BlockInit.registerRenders();
+		
 	}
 	
 	public static void Common()
 	{
 		ItemInit.init();
+		ItemInit.register();
+		
 		BlockInit.init();
-		// ToolInit.init();
-		ArmorInit.init();
 		BlockInit.register();
+		
+		// ToolInit.init();
+		// ToolInit.register();
+		
+		ArmorInit.init();
+		ArmorInit.register();
 	}
 }

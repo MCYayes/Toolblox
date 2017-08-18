@@ -1,22 +1,21 @@
 {
-    "parent": "block/block",
+    "parent": "block/orientable",
     "textures": {
-        "bottom": "tbx:blocks/puzzlebox_back",
-        "side": "tbx:blocks/puzzlebox_side",
         "top": "tbx:blocks/puzzlebox_3x3_top",
         "front": "tbx:blocks/puzzlebox_front",
-        "particle": "tbx:blocks/puzzlebox_front"
+        "side": "tbx:blocks/puzzlebox_side",
+        "bottom": "tbx:blocks/puzzlebox_back",
     },
-    "elements": [
+        "elements": [
         {   "from": [ 0, 0, 0 ],
             "to": [ 16, 16, 16 ],
             "faces": {
-                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "down" },
-                "up":    { "uv": [ 0, 16, 16, 0 ], "texture": "#top", "cullface": "up" },
-                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#front", "cullface": "north" },
-                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "south" },
-                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
-                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
+                "down":  { "texture": "#top", "cullface": "down", "rotation":  180 },
+                "up":    { "texture": "#top", "cullface": "up" },
+                "north": { "texture": "#front", "cullface": "north" },
+                "south": { "texture": "#bottom", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west", "rotation":  270 },
+                "east":  { "texture": "#side", "cullface": "east", "rotation":  90 }
             }
         }
     ]
