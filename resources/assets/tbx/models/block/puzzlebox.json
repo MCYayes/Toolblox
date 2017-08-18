@@ -1,22 +1,19 @@
 {
-    "parent": "block/orientable",
-    "textures": {
-        "top": "tbx:blocks/puzzlebox_3x3_top",
-        "front": "tbx:blocks/puzzlebox_front",
-        "side": "tbx:blocks/puzzlebox_side",
-        "bottom": "tbx:blocks/puzzlebox_back",
-    },
-        "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "down":  { "texture": "#top", "cullface": "down", "rotation":  180 },
-                "up":    { "texture": "#top", "cullface": "up" },
-                "north": { "texture": "#front", "cullface": "north" },
-                "south": { "texture": "#bottom", "cullface": "south" },
-                "west":  { "texture": "#side", "cullface": "west", "rotation":  270 },
-                "east":  { "texture": "#side", "cullface": "east", "rotation":  90 }
-            }
+    "parent": "block/cube",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
         }
-    ]
+    },
+    "textures": {
+        "particle": "tbx:blocks/puzzlebox_front",
+        "down": "tbx:blocks/puzzlebox_back",
+        "up": "tbx:blocks/puzzlebox_3x3_top",
+        "north": "tbx:blocks/puzzlebox_front",
+        "east": "tbx:blocks/puzzlebox_side",
+        "south": "tbx:blocks/puzzlebox_front",
+        "west": "tbx:blocks/puzzlebox_side"
+    }
 }

@@ -1,10 +1,10 @@
 {
     "variants": {
-        "facing=down":  { "model": "tbx:block/puzzlebox", "x": 180 },
-        "facing=up":    { "model": "tbx:block/puzzlebox" },
-        "facing=north": { "model": "tbx:block/puzzlebox" },
-        "facing=south": { "model": "tbx:block/puzzlebox", "y": 180 },
-        "facing=west":  { "model": "tbx:block/puzzlebox", "y": 270 },
-        "facing=east":  { "model": "tbx:block/puzzlebox", "y": 90 }
+        "facing=down":  { "model": "tbx:puzzlebox", "x": 180 },
+        "facing=up":    { "model": "tbx:puzzlebox" },
+        "facing=north": { "model": "tbx:puzzlebox" },
+        "facing=south": { "model": "tbx:puzzlebox", "y": 180 },
+        "facing=west":  { "model": "tbx:puzzlebox", "y": 270 },
+        "facing=east":  { "model": "tbx:puzzlebox", "y": 90 }
     }
 }
