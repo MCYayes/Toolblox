@@ -8,22 +8,26 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import yayes.toolblox.Reference;
 import yayes.toolblox.Toolblox;
+import yayes.toolblox.init.blocks.CustomBox;
 import yayes.toolblox.init.blocks.CustomOre;
 
 public class BlockInit 
 {
 	public static Block tewlblock;
+	public static Block puzzlebox;
 	
 	public static void init()
 	{
 		// Name = new Custom<block>("name", hardness, blast resist, harvest lvl);
 		// Harvest levels = 1-wood, 2-stone, 3-diamond, 4-uber!
 		tewlblock = new CustomOre("tewlblock", 2.0F, 4.0F, 4);
+		puzzlebox = new CustomBox("puzzlebox", 2.0F, 4.0F, 4);
 	}
 	
 	public static void register()
 	{
 		registerBlock(tewlblock);
+		registerBlock(puzzlebox);
 	}
 	
 	public static void registerBlock(Block block)
@@ -38,6 +42,7 @@ public class BlockInit
 	public static void registerRenders()
 	{
 		registerRender(tewlblock);
+		registerRender(puzzlebox);
 	}
 	
 	public static void registerRender(Block block)

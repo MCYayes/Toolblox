@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up": { "model": "tbx:puzzlebox", "x": 270 },
+        "facing=down": { "model": "tbx:puzzlebox", "x": 90 },
+        "facing=north": { "model": "tbx:puzzlebox" },
+        "facing=south": { "model": "tbx:puzzlebox", "y": 180 },
+        "facing=west": { "model": "tbx:puzzlebox", "y": 270 },
+        "facing=east": { "model": "tbx:puzzlebox", "y": 90 },
+    }
+}
